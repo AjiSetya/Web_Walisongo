@@ -1,5 +1,5 @@
 <?php
-$filename = 'counter.txt';
+$filename = 'counter_sunanampel.txt';
  
 function counter(){		
 	global $filename;	
@@ -117,7 +117,12 @@ counter();
         <p align="justify">Oleh sebab itulah, ketika beberapa wali mengusulkan agar Kerajaan Bintara Demak menyerbu Majapahit, Sunan Ampel menyatakan ketidak setujuannya. Karena menurut Sunan Ampel, hal itu akan membuat cemar nama Islam di Jawa khususnya … dan lagi apa kata orang nanti, tidakkah Raden Patah akan menjadi anak yang durhaka, bila sampai terjadi penyerangan dan merebut tahta orang tuanya sendiri.</p>
         <p align="justify">Dibangunnya masjid Demak yang berdiri pada tahun 1477 M itupun Sunan Ampel juga ikut berperan dalam perancangan proyek pembangunannya. Hal itu dapat dilihat pada salah satu diantara empat tiang utama masjid itu diberi nama sesuai dengan pendirinya ialah Sunan Ampel.</p>
         <br><br>
-        <p><strong>Total Pengunjung : <?= file_get_contents($filename)?></strong></p>
+        <table style="width: 100%;">
+          <tr>
+            <td><p><strong>Total Pengunjung : <?= file_get_contents($filename)?></strong></p></td>
+            <td align="right"><a href="sunanbonang.php"><button class="btn btn-info">Baca Sunan Bonang</button></a></td>
+          </tr>
+        </table>
         </div>
       </div>
 
