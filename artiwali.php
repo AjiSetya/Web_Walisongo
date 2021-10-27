@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Wali Songo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="dist/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <link href="assets/css/anim/animate.css" rel="stylesheet">
+    
+     <style>
+	
+	body {
+		background:url(assets/img/bg2.jpg);
+		}
+		
+	</style>
+    
+  </head>
+
+  <body role="document">
+  
+  <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+          <a class="navbar-brand" onClick="goBack()"><span class="pull-left"><span class="glyphicon glyphicon-menu-left animated rotateIn"></span></span>Tentang Wali Songo</a>
+        </div>
+    </nav><br><br>
+  
+  <!-- Animation class -->
+    <div id="main" class="m-scene">
+    <!-- Classes that define elment animations -->
+      <div class="scene_element scene_element--fadein">
+  
+  <div class="img-hover">
+  	<center><img style="box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);border-radius:15px;" src="assets/img/diagram.png" class="img-responsive max-width: 100% height:auto display:block" alt="Walisongo"></center></div><br><br>
+    
+    <div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4>Tentang Wali Songo</h4>
+        </div>
+        <div class="panel-body">
+        <p align="justify">"Walisongo" berarti sembilan orang wali. Mereka adalah Maulana Malik Ibrahim, Sunan Ampel, Sunan Giri, Sunan Bonang, Sunan Dradjad, Sunan Kalijaga, Sunan Kudus, Sunan Muria, serta Sunan Gunung Jati. Mereka tidak hidup pada saat yang persis bersamaan. Namun satu sama lain mempunyai keterkaitan erat, bila tidak dalam ikatan darah juga dalam hubungan guru-murid. <br>
+          <br>
+          <br>
+          Maulana Malik Ibrahim yang tertua. Sunan Ampel anak Maulana Malik Ibrahim. Sunan Giri adalah keponakan Maulana Malik Ibrahim yang berarti juga sepupu Sunan Ampel. Sunan Bonang dan Sunan Drajad adalah anak Sunan Ampel. Sunan Kalijaga merupakan sahabat sekaligus murid Sunan Bonang. Sunan Muria anak Sunan Kalijaga. Sunan Kudus murid Sunan Kalijaga. Sunan Gunung Jati adalah sahabat para Sunan lain, kecuali Maulana Malik Ibrahim yang lebih dahulu meninggal. <br>
+          <br>
+          <br>
+          Mereka tinggal di pantai utara Jawa dari awal abad 15 hingga pertengahan abad 16, di tiga wilayah penting. Yakni Surabaya-Gresik-Lamongan di Jawa Timur, Demak-Kudus-Muria di Jawa Tengah, serta Cirebon di Jawa Barat. Mereka adalah para intelektual yang menjadi pembaharu masyarakat pada masanya. Mereka mengenalkan berbagai bentuk peradaban baru: mulai dari kesehatan, bercocok tanam, niaga, kebudayaan dan kesenian, kemasyarakatan hingga pemerintahan.</p>
+        <br><br>
+        <table style="width: 100%;">
+          <tr>
+            <td></td>
+            <td align="right"><a href="sunangresik.php"><button class="btn btn-info">Baca Sunan Gresik</button></a></td>
+          </tr>
+        </table>
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+  
+  
+  
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+	function goBack() {
+    window.history.back();
+	}
+	</script>
+    <script src="assets/js/anim/function.js"></script>
+    <script src="assets/js/anim/jquery.smoothState.js"></script>
+    </div>
+    </div>
+  </body>
+</html>

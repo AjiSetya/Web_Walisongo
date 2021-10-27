@@ -1,5 +1,5 @@
 <?php
-$filename = 'counter.txt';
+$filename = 'counter_sunangresik.txt';
  
 function counter(){		
 	global $filename;	
